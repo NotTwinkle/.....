@@ -18,7 +18,7 @@ interface PuzzlePiece {
 
 const PuzzleGame: React.FC<PuzzleGameProps> = ({
   onComplete,
-  imageSrc = "/photo/mpin.jpg",
+  imageSrc = "/photo/mylove.jpg",
 }) => {
   const GRID_SIZE = 3;
   const [pieceSize, setPieceSize] = useState(100);
