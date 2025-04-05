@@ -234,7 +234,7 @@ const Envelope: React.FC<EnvelopeProps> = () => {
       ) : showPuzzle ? (
         <PuzzleGame
           onComplete={handlePuzzleComplete}
-          imageSrc="/photo/mylove.JPG"
+          imageSrc="/photo/mylove.jpg"
         />
       ) : (
         <>
